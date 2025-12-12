@@ -1,0 +1,33 @@
+{
+    "folders": [
+        {
+            "name": "AOC2025",
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "C_Cpp.autoAddFileAssociations": false,
+
+        "cmake.autoSelectActiveFolder": false,
+        "cmake.ignoreCMakeListsMissing": true,
+        "cmake.mergedCompileCommands": "true",
+        "cmake.options.advanced": {
+        },
+
+        "doxdocgen.file.copyrightTag": [
+            "@copyright Copyright (c) {year} eggebee6"
+        ],
+        "doxdocgen.file.fileOrder": [
+            "copyright",
+            "empty",
+            "file",
+            "empty",
+            "brief",
+            "empty",
+            "author",
+            "empty"
+        ],
+
+        "editor.suggest.insertMode": "insert",
+    }
+}

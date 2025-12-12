@@ -1,0 +1,48 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "CMake: test",
+			"command": "test",
+			"problemMatcher": [],
+			"detail": "Run CTest",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"options": {
+				"cwd": "${workspaceFolder}/output/test/"
+			}
+		},
+		{
+			"label": "Generate documentation",
+			"detail": "Run Doxygen to generate the Doxygen pages",
+			"type": "shell",
+			"command": "doxygen",
+			"args": [
+				"docs/Doxyfile"
+			],
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "Mass format",
+			"detail": "Run formatter on all source files",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"utils/utils.py",
+				"--format"
+			],
+			"group": {
+				"kind": "none",
+				"isDefault": false
+			},
+			"problemMatcher": []
+		},
+	]
+}
