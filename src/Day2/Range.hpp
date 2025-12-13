@@ -11,6 +11,9 @@
 
 #include <string>
 
+namespace day2
+{
+
 /**
  * @brief Simple object holding the first and last IDs in a range
  */
@@ -46,5 +49,7 @@ private:
   unsigned long long m_firstId;
   unsigned long long m_lastId;
 };
+
+} // namespace day2
 
 #endif

@@ -14,6 +14,9 @@
 #include <string>
 #include <vector>
 
+namespace day1
+{
+
 /**
  * @brief An object for reading the input file and creating rotations from its contents
  */
@@ -46,5 +49,7 @@ private:
 
   std::string m_fileName; ///< Input filename
 };
+
+} // namespace day1
 
 #endif

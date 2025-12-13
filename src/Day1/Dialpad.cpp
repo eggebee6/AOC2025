@@ -9,6 +9,9 @@
 
 #include <stdexcept>
 
+namespace day1
+{
+
 void Dialpad::ApplyRotation(const Rotation& rotation)
 {
   // Full rotations don't modify dial number, only keep remainder of clicks
@@ -75,3 +78,5 @@ unsigned int Dialpad::GetZeroCrossings(const Rotation& rotation) const
 
   return zeroCrossings;
 }
+
+} // namespace day1

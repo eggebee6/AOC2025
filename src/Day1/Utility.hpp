@@ -12,6 +12,9 @@
 #include "Rotation.hpp"
 #include <ostream>
 
+namespace day1
+{
+
 /**
  * @brief Output stream operator for outputting a rotation
  *
@@ -40,5 +43,7 @@ std::ostream& operator<<(std::ostream& out, const Rotation& rotation)
 
   return out;
 }
+
+} // namespace day1
 
 #endif

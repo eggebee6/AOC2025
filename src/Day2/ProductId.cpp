@@ -6,6 +6,9 @@
 #include <string>
 #include <vector>
 
+namespace day2
+{
+
 std::vector<std::string>
 ProductId::GenerateInvalidIds(const unsigned long long rangeMin, const unsigned long long rangeMax)
 {
@@ -62,3 +65,5 @@ ProductId::GenerateInvalidIds(const unsigned long long rangeMin, const unsigned 
 
   return ids;
 }
+
+} // namespace day2

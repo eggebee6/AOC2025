@@ -9,6 +9,9 @@
 #ifndef __UTILITY_HPP__
 #define __UTILITY_HPP__
 
+namespace day2
+{
+
 template <typename TL, typename TR> inline constexpr auto MIN(const TL& lhs, const TR& rhs)
 {
   return (lhs < rhs) ? lhs : rhs;
@@ -18,5 +21,7 @@ template <typename TL, typename TR> inline constexpr auto MAX(const TL& lhs, con
 {
   return (lhs > rhs) ? lhs : rhs;
 }
+
+} // namespace day2
 
 #endif

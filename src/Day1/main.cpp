@@ -18,6 +18,8 @@
 #include <cstdlib>
 #include <iostream>
 
+using namespace day1;
+
 int main()
 {
   Dialpad dialpad{};

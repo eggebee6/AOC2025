@@ -5,6 +5,9 @@
 #include <stdexcept>
 #include <string>
 
+namespace day2
+{
+
 Range Range::FromString(const std::string& str)
 {
   constexpr char ID_SEPARATOR = '-';
@@ -42,3 +45,5 @@ Range Range::FromString(const std::string& str)
 
   return Range{firstId, lastId};
 }
+
+} // namespace day2

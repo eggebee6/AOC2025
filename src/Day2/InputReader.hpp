@@ -15,6 +15,9 @@
 #include <string>
 #include <vector>
 
+namespace day2
+{
+
 /**
  * @brief An object for reading the input file and creating ranges from its contents
  */
@@ -39,5 +42,7 @@ public:
 private:
   std::string m_fileName; ///< Input filename
 };
+
+} // namespace day2
 
 #endif

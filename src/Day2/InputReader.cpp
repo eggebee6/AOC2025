@@ -11,6 +11,9 @@
 #include <stdexcept>
 #include <string>
 
+namespace day2
+{
+
 std::vector<Range> InputReader::ReadRanges()
 {
   constexpr char RANGE_DELIMITER = ',';
@@ -51,3 +54,5 @@ std::vector<Range> InputReader::ReadRanges()
   fIn.close();
   return ranges;
 }
+
+} // namespace day2

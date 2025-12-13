@@ -10,6 +10,9 @@
 #include <fstream>
 #include <stdexcept>
 
+namespace day1
+{
+
 std::vector<Rotation> InputReader::ReadRotations()
 {
   constexpr unsigned int BUFFER_LEN = 32; // Input file buffer length
@@ -89,3 +92,5 @@ Rotation InputReader::CreateRotation(const std::string& line)
 
   return Rotation{dir, clicks};
 }
+
+} // namespace day1

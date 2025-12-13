@@ -13,6 +13,8 @@
 #include <cstdlib>
 #include <iostream>
 
+using namespace day2;
+
 int main()
 {
   try

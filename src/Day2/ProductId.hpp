@@ -12,6 +12,9 @@
 #include <string>
 #include <vector>
 
+namespace day2
+{
+
 /**
  * @brief Encapsulates a string containing the product ID
  */
@@ -65,5 +68,7 @@ public:
 private:
   std::string m_id; ///< Product ID
 };
+
+} // namespace day2
 
 #endif

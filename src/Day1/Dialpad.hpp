@@ -11,6 +11,9 @@
 
 #include "Rotation.hpp"
 
+namespace day1
+{
+
 /**
  * @brief Lock with a rotating dial
  *
@@ -58,5 +61,7 @@ private:
 
   unsigned int m_dialNumber; ///< Number the dialpad is currently pointing to
 };
+
+} // namespace day1
 
 #endif

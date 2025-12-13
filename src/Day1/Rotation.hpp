@@ -9,6 +9,9 @@
 #ifndef __ROTATION_HPP__
 #define __ROTATION_HPP__
 
+namespace day1
+{
+
 /**
  * @brief A struct containing the direction and number of clicks in a rotation
  */
@@ -57,5 +60,7 @@ struct Rotation
   const Direction direction; ///< Rotation direction
   const unsigned int clicks; ///< Number of clicks
 };
+
+} // namespace day1
 
 #endif
