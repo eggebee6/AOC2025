@@ -18,6 +18,21 @@
         }
       ],
       "cwd": "${workspaceFolder}/output/bin/Day1"
+    },
+    {
+      "name": "Debug Day 2",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/output/bin/Day2/day2.exe",
+      "args": [
+      ],
+      "environment": [
+        {
+          "name": "config",
+          "value": "Debug"
+        }
+      ],
+      "cwd": "${workspaceFolder}/output/bin/Day2"
     }
   ]
 }
